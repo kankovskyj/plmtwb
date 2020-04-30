@@ -1,0 +1,38 @@
+.page-divider-large {
+  width: 100vw;
+  height: 25vh;
+}
+
+.page-divider-small {
+  width: 100vw;
+  height: 20vh;
+}
+
+.strong {
+  -webkit-text-stroke: 1px #fff;
+}
+
+.strong::-moz-selection {
+  -webkit-text-stroke: 1px #000;
+  text-shadow: -1.6px 0px 0px #312878, 0.8px 0px 0px #FF4D61;
+  background-color: #fff;
+}
+
+.strong::selection {
+  -webkit-text-stroke: 1px #000;
+  text-shadow: -1.6px 0px 0px #312878, 0.8px 0px 0px #FF4D61;
+  background-color: #fff;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background: red;
+}
+/*# sourceMappingURL=style.css.map */

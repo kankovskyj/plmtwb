@@ -1,0 +1,26 @@
+// PRESETS
+$font-heading: ‘Archivo Black’, sans-serif;
+$font-text: ‘Exo’, sans-serif;
+$color-black: #000;
+$color-white: #fff;
+$color-pink: #FF4D61;
+$color-purple: #312878;
+// REUSABLE CLASSES
+.page-divider-large { width: 100vw; height: 25vh; }
+.page-divider-small { width: 100vw; height: 20vh; }
+.strong { -webkit-text-stroke: 1px $color-white; }
+.strong::selection { -webkit-text-stroke: 1px $color-black; text-shadow: -1.6px 0px 0px $color-purple, 0.8px 0px 0px $color-pink; background-color: $color-white; }
+// ANIMATIONS
+
+// START
+body {
+    background-color: $color-black;
+    margin: 0;
+    padding: 0;
+}
+// HEADER 
+.header {
+    width: 100vw;
+    height: 10vh;
+    background: red;
+}
